@@ -21,7 +21,6 @@ public class ServerMain {
         }
 
         connection.connect(port);
-
     }
 
 }
