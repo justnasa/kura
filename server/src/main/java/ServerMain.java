@@ -1,5 +1,6 @@
 public class ServerMain {
 
+    private static ServerConnection connection = new ServerConnection();
     private static String[] arguments;
 
     public static void main(String[] args) {
@@ -10,6 +11,17 @@ public class ServerMain {
         arguments = args;
         System.out.println("Hello World!");
         System.out.println("Port: " + args[0]);
+
+        int port;
+        try {
+            port = Integer.parseInt(args[0]);
+        } catch (NumberFormatException nfe) {
+            System.out.println("Port provided was not valid. Message: " + nfe.getMessage());
+            return;
+        }
+
+        connection.connect(port);
+
     }
 
 }
