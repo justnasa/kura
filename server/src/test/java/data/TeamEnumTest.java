@@ -10,4 +10,9 @@ public class TeamEnumTest {
     public void getTeam() {
         assertTrue(TeamEnum.CHICKEN.getTeam());
     }
+
+    @Test
+    public void getName() {
+        assertEquals("CHICKEN",TeamEnum.CHICKEN.getName());
+    }
 }
