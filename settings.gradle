@@ -1,2 +1,3 @@
 rootProject.name = 'justnasa.kura'
+include 'server'
 
