@@ -1,3 +1,3 @@
-# kura
+# .kura
 
 This is it.
