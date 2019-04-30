@@ -1,4 +1,0 @@
-include ':app'
-rootProject.name = 'justnasa.kura'
-include 'server'
-

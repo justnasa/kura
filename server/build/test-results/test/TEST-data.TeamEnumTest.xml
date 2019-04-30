@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="data.TeamEnumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-04-28T19:15:08" hostname="Volodya" time="0.008">
-  <properties/>
-  <testcase name="getTeam" classname="data.TeamEnumTest" time="0.008"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
