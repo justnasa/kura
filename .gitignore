@@ -19,4 +19,6 @@ gradle-app.setting
 # Exclude intellij folder
 /.idea/
 /.idea/*
+*/.idea/
+*/.idea/*
 *.iml
